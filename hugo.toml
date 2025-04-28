@@ -1,27 +1,27 @@
 baseURL = 'https://deuteriumlabs.dev/'
 languageCode = 'en-us'
 title = 'Deuterium Labs'
-theme = 'blowfish'
+theme = 'terminal'
 
-# Optional: enable dark mode by default
 [params]
-  defaultTheme = "dark"
-# Menus
+  # Some basic Terminal theme settings
+  themeColor = "green"  # You can pick: red, blue, green, pink, orange, etc.
+  showMenu = true
+  fullWidthTheme = false
+  centerTheme = true
+
 [menu]
   [[menu.main]]
-    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 1
 
   [[menu.main]]
-    identifier = "games"
     name = "Games"
     url = "/games/"
     weight = 2
 
   [[menu.main]]
-    identifier = "blog"
     name = "Dev Blog"
     url = "/posts/"
     weight = 3
