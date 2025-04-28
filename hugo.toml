@@ -6,7 +6,6 @@ theme = 'blowfish'
 # Optional: enable dark mode by default
 [params]
   defaultTheme = "dark"
-
 # Menus
 [menu]
   [[menu.main]]
