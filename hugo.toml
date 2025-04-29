@@ -1,54 +1,43 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
-theme = "re-terminal"
-pagination.pagerSize = 5
+title = "Deuterium Labs"
+theme = "PaperMod"
+
+pagination.pagerSize = 10
 
 [params]
-  contentTypeName = "posts"
-  themeColor = "blue"
-  showMenuItems = 3
-  fullWidthTheme = false
-  centerTheme = true
-  readingTime = true
-  [params.banner]
-    dismissible = false
-    text = "Site under construction!"
-    #url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
+  env = "production" # or "development"
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowShareButtons = false 
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  tocOpen = false
 
-[languages]
-  [languages.en.params]
-    title = "Deuterium Labs"
-    subtitle = "2 Dudes 1 Atom"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+[menu]
 
-    [languages.en.params.logo]
-      logoText = "Deuterium Labs"
-      logoHomeLink = "/"
-
-[languages.en.menu]
-  #[[languages.en.menu.main]]
-  #  identifier = "submenu"
-  #  name = "Sub menus"
-  #  weight = 10
-  #[[languages.en.menu.main]]
-  #  identifier = "subabout"
-  #  name = "About"
-  #  url = "/about"
-  #  parent = "submenu"
-  #[[languages.en.menu.main]]
-  #  identifier = "subgames"
-  #  name = "Games"
-  #  url = "/games"
-  #  parent = "submenu"
-  [[languages.en.menu.main]]
+  [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about"
-  [[languages.en.menu.main]]
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
     identifier = "games"
-    name = "games"
-    url = "/games"
+    name = "Games"
+    url = "/games/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Dev Blog"
+    url = "/posts/"
+    weight = 3
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true

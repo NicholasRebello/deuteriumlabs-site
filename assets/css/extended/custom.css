@@ -1,0 +1,290 @@
+/* === Cyberpunk Theme for PaperMod === */
+
+/* Base */
+body, html {
+  background-color: #0A0F1F !important;
+  color: #23B0FF;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Main content */
+body .main,
+.content-wrap,
+.wrapper,
+main,
+.content,
+.post-single,
+.article,
+section,
+.post-content {
+  background-color: transparent !important;
+  color: #23B0FF;
+}
+
+/* Neutralize all unwanted "dark" class styling */
+[class*="dark"] {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: #23B0FF33 !important;
+  box-shadow: none !important;
+}
+
+.post-entry,
+.post-entry * {
+  background-color: transparent !important;
+  color: #23B0FF !important;
+  border: none !important;
+}
+
+.list.dark {
+  background-color: transparent !important;
+  color: #23B0FF !important;
+  border: none !important;
+}
+
+/* Headings */
+h1 {
+  color: #23B0FF;
+  text-shadow: 0 0 3px #23B0FF;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #FF00C8;  /* Pink color for all other headings */
+  text-shadow: 0 0 3px #FF00C8;
+}
+
+/* Links */
+a {
+  color: #FF00C8;
+  text-shadow: 0 0 3px #FF00C8;
+}
+
+a:hover {
+  color: #00FF9F;
+  text-shadow: 0 0 5px #00FF9F;
+}
+
+
+
+/* Button-style links (bottom nav, read more, etc.) */
+a.button,
+a.btn,
+a.read-more,
+.post-footer a,
+nav.paginav a {
+  background-color: #0A0F1F !important;
+  color: #FF00C8 !important;
+  border: 1px solid #FF00C855;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-shadow: 0 0 3px #FF00C8;
+  box-shadow: 0 0 5px #FF00C833;
+  display: inline-block;
+}
+
+a.button:hover,
+a.btn:hover,
+a.read-more:hover,
+.post-footer a:hover,
+nav.paginav a:hover {
+  background-color: #FF00C8 !important;
+  color: #0A0F1F !important;
+  text-shadow: 0 0 5px #FF00C8;
+  box-shadow: 0 0 10px #FF00C8;
+}
+
+/* Navbar, footer, and header */
+.navbar,
+.header,
+.footer,
+.site-footer {
+  background-color: #0A0F1F !important;
+  color: #23B0FF;
+  border-top: 1px solid #23B0FF33;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #23B0FF;
+}
+
+/* Table of Contents */
+.toc,
+.toc .inner,
+.toc summary,
+.toc a {
+  background-color: transparent !important;
+  color: #23B0FF;
+  text-shadow: 0 0 2px #23B0FF;
+}
+
+/* Pagination and nav */
+nav.paginav,
+.post-footer {
+  background-color: transparent !important;
+  color: #23B0FF;
+  border-top: 1px solid #23B0FF33;
+  box-shadow: none !important;
+}
+
+/* Post meta and tags */
+.post-meta,
+.post-tags a {
+  color: #FF00C8;
+  text-shadow: 0 0 2px #FF00C8;
+}
+
+pre, pre code {
+  background-color: #0a0f2c !important; /* Cyberpunk blue background */
+  color: #f8f8f2 !important; /* Light gray text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+  white-space: pre-wrap; /* Wraps the text inside the code block */
+  word-wrap: break-word;
+}
+
+pre code span {
+  display: inline;
+}
+
+pre code .token.keyword {
+  color: #f92672 !important; /* Neon pink for keywords */
+}
+
+pre code .token.string {
+  color: #66d9ef !important; /* Neon cyan for strings */
+}
+
+pre code .token.variable,
+pre code .token.function {
+  color: #a6e22e !important; /* Neon green for identifiers */
+}
+
+pre code .token.type {
+  color: #e6db74 !important; /* Neon yellow for types */
+}
+
+
+/* Copy button */
+button.copy-code {
+  background-color: #0A0F1F;
+  color: #FF00C8;
+  border: 1px solid #FF00C855;
+  box-shadow: 0 0 5px #FF00C833;
+}
+
+button.copy-code:hover {
+  background-color: #FF00C8;
+  color: #0A0F1F;
+  box-shadow: 0 0 10px #FF00C8;
+}
+
+/* Reduce overall glow slightly */
+* {
+  text-shadow: none;
+}
+
+strong,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+.post-title,
+.site-title {
+  text-shadow: 0 0 2px currentColor;
+}
+
+/* Optional: lighten hover or separator lines in lists */
+.list hr,
+.post-entry hr {
+  border-color: #23B0FF33 !important;
+}
+
+/* Post titles and summaries in list view */
+.post-entry .entry-title,
+.post-entry .entry-content {
+  color: #FF00C8 !important;
+  text-shadow: 0 0 3px #FF00C8;
+}
+
+/* Tags/categories under post previews */
+.post-entry .entry-footer,
+.post-entry .entry-tags {
+  color: #00FFFF !important;
+  text-shadow: 0 0 2px #00FFFF;
+}
+
+/* === Unified Styling for Both .first-entry and .post-entry === */
+article.first-entry,
+article.post-entry {
+  position: relative;
+  background-color: #0A0F1F;
+  border: 1px solid #23B0FF33;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 8px #23B0FF33;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+article.first-entry:hover,
+article.post-entry:hover {
+  box-shadow: 0 0 15px #FF00C8AA;
+  transform: translateY(-2px);
+}
+
+/* === Header Styling (Unified) === */
+article.first-entry .entry-header h2,
+article.post-entry .entry-header h2 {
+  color: #FF00C8; /* Pink header color */
+  font-weight: 600;
+  text-shadow: none;
+  margin: 0;
+}
+
+/* === Body Text Styling (Unified) === */
+article.first-entry .entry-content p,
+article.post-entry .entry-content p {
+  color: #23B0FF; /* Blue body text color */
+}
+
+/* === Footer Styling (Unified) === */
+article.first-entry .entry-footer,
+article.post-entry .entry-footer {
+  color: #00FFFF; /* Cyan footer text color */
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
+/* === Clickable Overlay (Unified) === */
+a.entry-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+}
+
+
+
+/* Background fallback again, in case of leaks */
+body, html {
+  background-color: #0A0F1F !important;
+  color: #23B0FF !important;
+}
+
+/* Remove unnecessary pink borders from prev and next buttons */
+nav .prev,
+nav .next {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
