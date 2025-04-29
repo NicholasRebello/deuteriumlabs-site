@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://deuteriumlabs.dev"
 languageCode = "en-us"
 title = "Deuterium Labs"
 theme = "PaperMod"
