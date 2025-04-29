@@ -17,6 +17,7 @@ pagination.pagerSize = 10
   ShowWordCount = true
   ShowToc = true
   tocOpen = false
+  customCSS = ["css/extended/custom.css"]
 
 [menu]
 
