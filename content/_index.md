@@ -1,6 +1,6 @@
----
-title: "Index"
-layout: "home"
----
++++
+title = "Index"
+layout = "home"
++++
 
 Site is under construction.

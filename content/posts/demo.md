@@ -1,9 +1,9 @@
----
-title: "Demo"
-date: 2025-04-28
-tags: ["style", "demo", "cyberpunk"]
-draft: false
----
++++
+title = "Demo"
+date = 2025-04-28
+tags = ["style", "demo", "cyberpunk"]
+draft = false
++++
 
 Welcome to the **Cyberpunk Theme Demo**!  
 This post showcases how various elements appear using your custom CSS overrides.

@@ -1,7 +1,6 @@
 +++
-date = '2025-04-29T11:34:35-04:00'
-draft = true
-title = 'Dev Blog'
+title = "Dev Blog"
+layout = "home"
 +++
 
 Updates, deep dives, and thoughts from the Deuterium Labs team.
