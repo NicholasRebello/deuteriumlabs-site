@@ -286,5 +286,5 @@ nav .next {
 }
 
 html {
-  font-size: 60%; /* 100% is usually 16px, so this makes it ~12.8px */
+  font-size: 100%; /* 100% is usually 16px, so this makes it ~12.8px */
 }
