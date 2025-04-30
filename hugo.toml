@@ -7,6 +7,7 @@ pagination.pagerSize = 5
 
 [params]
   env = "production" # or "development"
+  development_stage = "Beta"
   description = "Two Dudes One Atom - Indie Video Game Development"
   defaultTheme = "dark"
   label.icon = "android-chrome-512x512.png"
