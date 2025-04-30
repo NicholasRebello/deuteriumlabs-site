@@ -7,7 +7,9 @@ pagination.pagerSize = 10
 
 [params]
   env = "production" # or "development"
+  description = "Two Dudes One Atom - Indie Video Game Development"
   defaultTheme = "dark"
+  label.icon = "android-chrome-512x512.png"
   disableThemeToggle = true
   ShowShareButtons = false 
   ShowReadingTime = true
@@ -15,9 +17,39 @@ pagination.pagerSize = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
-  ShowToc = true
+  ShowToc = false
   tocOpen = false
   customCSS = ["css/extended/custom.css"]
+  keywords = [
+  "indie games",
+  "indie game developer",
+  "video games",
+  "sci-fi games",
+  "sci-fi",
+  "pixel art games",
+  "open source games",
+  "open source development",
+  "indie dev",
+  "gamedev",
+  "game development",
+  "unity games",
+  "godot games",
+  "cyberpunk",
+  "space games",
+  "retro games",
+  "2D games",
+  "game studio",
+  "game design",
+  "indie game studio",
+  "open source software",
+  "indie games 2025",
+  "creative coding",
+  "story-driven games",
+  "solo dev",
+  "experimental games",
+  "low poly",
+  "art games"
+]
 
 [menu]
 
@@ -42,3 +74,5 @@ pagination.pagerSize = 10
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+
+

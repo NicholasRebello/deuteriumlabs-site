@@ -205,20 +205,6 @@ a,
   border-color: #23B0FF33 !important;
 }
 
-/* Post titles and summaries in list view */
-.post-entry .entry-title,
-.post-entry .entry-content {
-  color: #FF00C8 !important;
-  text-shadow: 0 0 3px #FF00C8;
-}
-
-/* Tags/categories under post previews */
-.post-entry .entry-footer,
-.post-entry .entry-tags {
-  color: #00FFFF !important;
-  text-shadow: 0 0 2px #00FFFF;
-}
-
 /* === Unified Styling for Both .first-entry and .post-entry === */
 article.first-entry,
 article.post-entry {
@@ -272,7 +258,19 @@ a.entry-link {
   color: inherit;
 }
 
+/* Post titles and summaries in list view */
+.post-entry .entry-title,
+.post-entry .entry-content {
+  color: #FF00C8 !important;
+  text-shadow: 0 0 3px #FF00C8;
+}
 
+/* Tags/categories under post previews */
+.post-entry .entry-footer,
+.post-entry .entry-tags {
+  color: #FF00C8 !important;
+  text-shadow: 0 0 2px #FF00C8;
+}
 
 /* Background fallback again, in case of leaks */
 body, html {

@@ -4,7 +4,7 @@ draft = false
 title = 'About'
 +++
 
-# About Deuterium Labs
+## About Deuterium Labs
 
 Welcome to Deuterium Labs!
 
