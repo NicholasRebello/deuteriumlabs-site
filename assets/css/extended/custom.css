@@ -285,6 +285,10 @@ nav .next {
   box-shadow: none !important;
 }
 
-html {
-  font-size: 100%; /* 100% is usually 16px, so this makes it ~12.8px */
+
+body, p, a, li, td, th, input, button, blockquote {
+  font-size: 90% !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 150% !important;
 }
