@@ -294,6 +294,14 @@ code {
   font-size: 100% !important;
 }
 
+strong, b, em, i {
+  color: #FF00C8; /* or use a hex like #ff69b4 */
+}
+
+.pagination a {
+  background-color: #FF00C8;
+}
+
 /* Preserve heading hierarchy */
 h1 { font-size: 200% !important; }
 h2 { font-size: 170% !important; }
