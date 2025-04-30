@@ -286,7 +286,7 @@ nav .next {
 }
 
 
-body, p, a, li, td, th, input, button, blockquote {
+body, p, li, td, th, input, button, blockquote {
   font-size: 90% !important;
 }
 
