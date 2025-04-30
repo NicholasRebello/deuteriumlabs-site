@@ -8,7 +8,9 @@ title = 'Games'
 
 ## 🏴‍☠️ Zero-Day {#zero-day}
 
-{{< progressbar stage="Release" >}}
+{{< progressbar stage="Prototype" >}}
+ 
+ <br/>
 
 **Development Status:** Not started
 
